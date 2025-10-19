@@ -9,9 +9,9 @@ Make sure all connections and APi's are working else debug, test.
 
 
 execution:
-brew services start mariadb
-dbs database should be there and all tables and stored procedures and data in tables should be there
-run your main - resources - application.properties file in springboot
-then Angualr terminal do "npm start"
-click on localhost url and login page will be shown.
-Make sure all configurations ,emails, properties, connections are intact for this to work
+> in your bash start mariadb first - brew services start mariadb
+> dbs database should be there and all tables and stored procedures and data in tables should be there
+> run your main - resources - application.properties file in springboot
+> then Angualr terminal do "npm start"
+> click on localhost url and login page will be shown.
+> Make sure all configurations ,emails, properties, connections are intact for this to work
